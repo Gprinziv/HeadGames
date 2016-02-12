@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x0304A3E8" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x0304A3E8"/>
+  <item nodeId="node-0x0304A3E8">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">Hey there! If you're reading this, odds are I'm asking you for a job. Maybe I gave it to you in the hopes that you'd find me creative, skilled, or even just plain funny. This is interactive fiction, a genre that lies somewhere between a choose-your-own-story and a point-and-click adventure. This ride is only supposed to last about 5 minutes, so let's get right to it!&#x000A;&#x000A;Mind Games&#x000A;An Interactive Fiction by Giovanni Prinzivalli&#x000A;Release 1 / Serial number 160211 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Room of New Beginnings&#x000A;Well this should be an interesting interview, you think to yourself as you look up from your notes on the sturdy white conference table and out into the vast expanse of smooth white walls and bright white lights and a vaulted white ceiling. &#x000A;&#x000A; *Blink* &#x000A;&#x000A; What, what? You don't remember ever entering this room. One moment you were staring at the notes on the normally-tinted conference table of your normally-colored office, getting ready to interview a potential employee. The next, well&#x2026; Weird. You pick yourself up out of the comfortable white chair. You should probably gather your notes, and look for an exit. &#x000A;&#x000A;You can see a conference table (on which are interview notes, an index card and a compass) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x0304A458"/>
+      <child nodeId="node-0x0304A8B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0304A458">
+    <command xml:space="preserve">take notes</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0304A5A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0304A5A8">
+    <command xml:space="preserve">take card</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0304A618"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0304A618">
+    <command xml:space="preserve">read card</command>
+    <result xml:space="preserve">You see nothing special about the index card.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0304A4C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0304A4C8">
+    <command xml:space="preserve">read notes</command>
+    <result xml:space="preserve">"Giovanni Prinzivalli", the name reads. Says here he studied both Sociology and Computer Science at Cal Poly. Wants to be a game designer. The game attached with his cover letter was kind of weird.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0304A538"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0304A538">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Room of Old Beginnings&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0304AA78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0304AA78">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Room of New Beginnings&#x000A;The room is large, and L-shaped. Around the corner is the other half of the room. There is a sturdy white conference table, with a comfortable white chair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0304A8B8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Room of Old Beginnings&#x000A;The first thing you notice as you turn the corner is something distinctly not-white. It is so not-white, in fact, you can say with 100% certainty it is red. Everything else is still not-red. As you approach the door, you notice a white sign hiding on the wall, its letters a slight off-white. &#x000A;&#x000A;You can see a red door and a white sign (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0304A928"/>
+      <child nodeId="node-0x0B79B310"/>
+      <child nodeId="node-0x0304A1B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0304A928">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the red door)&#x000A;The door is locked. And red. There must be a key somewhere around here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0304A998"/>
+      <child nodeId="node-0x0B79AF20"/>
+      <child nodeId="node-0x0B851008"/>
+      <child nodeId="node-0x0B7D8AD0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0304A998">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Boiler Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0304AED8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0304AED8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Boiler Room Aft&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0304B028"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0304B028">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Boiler Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0304AF48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0304AF48">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Scaffolding&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0304AFB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0304AFB8">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Boiler Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79B4D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79B4D0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Boiler Room Aft&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79B540"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79B540">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Boiler Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79B5B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79B5B0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Nexus of Personality&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79B2A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79B2A0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Room of Old Beginnings&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79B700"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79B700">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Room of New Beginnings&#x000A;The room is large, and L-shaped. Around the corner is the other half of the room. There is a sturdy white conference table, with a comfortable white chair.&#x000A;&#x000A;You can see interview notes and an index card here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0B79AF20">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Altar to Skatan&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79B150"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79B150">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Nexus of Personality&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79B000"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79B000">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Reading Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79B770"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79B770">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Wall of Books&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79B0E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79B0E0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Second Floor&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79B230"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79B230">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79BB60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79BB60">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Wall of Books&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79B8C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79B8C0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Reading Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79B1C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79B1C0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Nexus of Personality&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0B851008">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Room of Old Beginnings&#x000A; The eastern portion of the room is just as large and white as its counterpart. It is empty save for a red door to the south and a white sign hanging on the white wall next to it. &#x000A;&#x000A;You can see a wall sign (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851078"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851078">
+    <command xml:space="preserve">touch sign</command>
+    <result xml:space="preserve">"Hey, easy! Not so rough there, pal. I'm sensitive, you know?" &#x000A;&#x000A; Holy cow! The sign talks! You pinch yourself and - ow - remember that you can't wake up from pinching yourself. &#x000A;&#x000A; "Cute. Listen, pal, the guy who runs this place needs your help with a problem. He's kind of fallen to pieces, literally. Could you do me a favor and put him back together? Don't worry, you won't be performing surgery or anything - just gather him up and bring him back here. You look like you're pretty sharp, so you'll be fine." &#x000A;&#x000A; You stare at the sign, not quite over the fact that it's talking to you. &#x000A;&#x000A; "Oh, and before I forget, you're gonna need this. Here." &#x000A;&#x000A; The sign flips open, revealing a hidden in a recess in the otherwise unblemished white wall. Inside the recess is a red key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B8515B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B8515B8">
+    <command xml:space="preserve">unlock door with red key</command>
+    <result xml:space="preserve">(first taking the red key)&#x000A;You unlock the red door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851548"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851548">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open the red door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B8510E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B8510E8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851CB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851CB8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851628"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851628">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851A88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851A88">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851D28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851D28">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851D98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851D98">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851E08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851E08">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851E78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851E78">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79BD90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79BD90">
+    <command xml:space="preserve">go door</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0B7D8AD0">
+    <command xml:space="preserve">touch sign</command>
+    <result xml:space="preserve">"Hey, easy! Not so rough there, pal. I'm sensitive, you know?" &#x000A;&#x000A; Holy cow! The sign talks! You pinch yourself and - ow - remember that you can't wake up from pinching yourself. &#x000A;&#x000A; "Cute. Listen, pal, the guy who runs this place needs your help with a problem. He's kind of fallen to pieces, literally. Could you do me a favor and put him back together? Don't worry, you won't be performing surgery or anything - just gather him up and bring him back here. You look like you're pretty sharp, so you'll be fine." &#x000A;&#x000A; You stare at the sign, not quite over the fact that it's talking to you. &#x000A;&#x000A; "Oh, and before I forget, you're gonna need this. Here." &#x000A;&#x000A; The sign flips open, revealing a hidden in a recess in the otherwise unblemished white wall. Inside the recess is a red key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B7D8980"/>
+      <child nodeId="node-0x0B7D46D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B7D8980">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the red door)&#x000A;The door is locked. And red. There must be a key somewhere around here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B7D89F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B7D89F0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B7D50E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B7D50E0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the red door)&#x000A;&#x000A;Nexus of Personality&#x000A;The sight that greets you is impressive. Cogs and gears taller than you and half as wide line the walls and spin in time with the thrum of some unseen engine. Normal color seems to have returned to the world, although the door behind you remains an obstinate red. You stand on a raised platform. A labyrinthine network of corridors serpent out below. A small, sturdy bridge extends out toward the center of the room, to another platform. You can make out a figure in a chair, and decide to proceed forward. Maybe he or she can tell you what's going on. &#x000A;&#x000A;You can see a red door, a south door, a west door, an east door and an old man here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0B7D46D0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B7D8280"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B7D8280">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the red door)&#x000A;Putting two and two together, you decide to use the red key on the red door. To the surprise of nobody, the key fits and the lock turns smoothly.&#x000A;&#x000A;Nexus of Personality&#x000A;The sight that greets you is impressive. Cogs and gears taller than you and half as wide line the walls and spin in time with the thrum of some unseen engine. Normal color seems to have returned to the world, although the door behind you remains an obstinate red. You stand on a raised platform. A labyrinthine network of corridors serpent out below. A small, sturdy bridge extends out toward the center of the room, to another platform. You can make out a figure in a chair, and decide to proceed forward. Maybe he or she can tell you what's going on. &#x000A;&#x000A;You can see a red door, a south door, a west door, an east door and an old man here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B808A60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B808A60">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the west door)&#x000A;&#x000A;Reading Room&#x000A; Towering bookshelves dominate this octagonal room, neatly arranged and tiered with ladders. Motes of dust float in the sunlight streaming in through vaulted windows, high above. In the back of the room is a wooden desk. You hear naught but the turning of pages every few minutes. Sitting behind the desk is a curiously familiar looking man wearing reading glasses, absorbed in some book. &#x000A;&#x000A;You can see a west door and a bookworm here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0B79B310">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Room of New Beginnings&#x000A; The room is large, and L-shaped. Around the corner is the other half of the room. There is a sturdy white conference table, with a comfortable white chair. &#x000A;&#x000A;You can see interview notes and an index card here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79B930"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79B930">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Room of New Beginnings&#x000A; The room is large, and L-shaped. Around the corner is the other half of the room. There is a sturdy white conference table, with a comfortable white chair. &#x000A;&#x000A;You can see interview notes and an index card here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79B690"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79B690">
+    <command xml:space="preserve">x notes</command>
+    <result xml:space="preserve">"Giovanni Prinzivalli", the name reads. Says here he studied both Sociology and Computer Science at Cal Poly. Wants to be a game designer. The game attached with his cover letter was kind of weird.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79AF90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79AF90">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">&gt; Introduction to Mind Games&#x000A;   Instructions for Play</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79AEB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79AEB0">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">Room of New Beginnings&#x000A; The room is large, and L-shaped. Around the corner is the other half of the room. There is a sturdy white conference table, with a comfortable white chair. &#x000A;&#x000A;You can see interview notes and an index card here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79BAF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79BAF0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Room of Old Beginnings&#x000A; The eastern portion of the room is just as large and white as its counterpart. It is empty save for a red door to the south and a white sign hanging on the white wall next to it. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79B850"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79B850">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Nexus of Personality&#x000A;The sight that greets you is impressive. Cogs and gears taller than you and half as wide line the walls and spin in time with the thrum of some unseen engine. Normal color seems to have returned to the world, although the door behind you remains an obstinate red. You stand on a raised platform. A labyrinthine network of corridors serpent out below. A small, sturdy bridge extends out toward the center of the room, to another platform. You can make out a figure in a chair, and decide to proceed forward. Maybe he or she can tell you what's going on. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79B380"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79B380">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Nexus of Personality&#x000A; Gears and cogs line the vast walls of the nexus, and a maze sprawls below you. In the center platform of the room, there is an old man sitting in a white chair. There are doors across bridges north, south, east, and west of the platform. The door to the north is remarkably red. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0304A1B8">
+    <command xml:space="preserve">touch sign</command>
+    <result xml:space="preserve">"Hey, easy! Not so rough there, pal. I'm sensitive, you know?" &#x000A;&#x000A; Holy cow! The sign talks! You pinch yourself and - ow - remember that you can't wake up from pinching yourself. &#x000A;&#x000A; "Cute. Listen, pal, the guy who runs this place needs your help with a problem. He's kind of fallen to pieces, literally. Could you do me a favor and put him back together? Don't worry, you won't be performing surgery or anything - just gather him up and bring him back here. You look like you're pretty sharp, so you'll be fine." &#x000A;&#x000A; You stare at the sign, not quite over the fact that it's talking to you. &#x000A;&#x000A; "Oh, and before I forget, you're gonna need this. Here." &#x000A;&#x000A; The sign flips open, revealing a hidden in a recess in the otherwise unblemished white wall. Inside the recess is a red key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79BD20"/>
+      <child nodeId="node-0x0B851BD8"/>
+      <child nodeId="node-0x0B8514D8"/>
+      <child nodeId="node-0x0B7D5460"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79BD20">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Room of Old Beginnings&#x000A; The eastern portion of the room is just as large and white as its counterpart. It is empty save for a red door to the south and a white sign hanging on the white wall next to it. &#x000A;&#x000A;You can see a wall sign (in which is a red key) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0304AAE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0304AAE8">
+    <command xml:space="preserve">x key</command>
+    <result xml:space="preserve">It's a key and it's red. Pretty basic stuff, really.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0304A0D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0304A0D8">
+    <command xml:space="preserve">x sign</command>
+    <result xml:space="preserve">You barely make out the words "Touch me!" on the sign.&#x000A;&#x000A;In the wall sign is a red key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B8519A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B8519A8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851938"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851938">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851B68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851B68">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851C48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851C48">
+    <command xml:space="preserve">srop key</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B8517E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B8517E8">
+    <command xml:space="preserve">drop key</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851468"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851468">
+    <command xml:space="preserve">unlock red door</command>
+    <result xml:space="preserve">What do you want to unlock the red door with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851AF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851AF8">
+    <command xml:space="preserve">unlock red door with red key</command>
+    <result xml:space="preserve">(first taking the red key)&#x000A;You unlock the red door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B8518C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B8518C8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851698"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851698">
+    <command xml:space="preserve">open red door</command>
+    <result xml:space="preserve">You open the red door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B850F98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B850F98">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851708"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851708">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Room of Old Beginnings&#x000A; The eastern portion of the room is just as large and white as its counterpart. It is empty save for a red door to the south and a white sign hanging on the white wall next to it. &#x000A;&#x000A;You can see a wall sign (empty) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0B851BD8">
+    <command xml:space="preserve">unlock red door with red key</command>
+    <result xml:space="preserve">(first taking the red key)&#x000A;You unlock the red door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851A18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851A18">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851778"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851778">
+    <command xml:space="preserve">open red door</command>
+    <result xml:space="preserve">You open the red door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B8511C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B8511C8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B8512A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B8512A8">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Room of Old Beginnings&#x000A; The eastern portion of the room is just as large and white as its counterpart. It is empty save for a red door to the south and a white sign hanging on the white wall next to it. &#x000A;&#x000A;You can see a wall sign (empty) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B850F28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B850F28">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851238"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851238">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Room of New Beginnings&#x000A; The room is large, and L-shaped. Around the corner is the other half of the room. There is a sturdy white conference table, with a comfortable white chair. &#x000A;&#x000A;You can see interview notes, an index card and a conference table (on which is a compass) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851318"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851318">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Room of Old Beginnings&#x000A; The eastern portion of the room is just as large and white as its counterpart. It is empty save for a red door to the south and a white sign hanging on the white wall next to it. &#x000A;&#x000A;You can see a wall sign (empty) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851858"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851858">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851388"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851388">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Room of New Beginnings&#x000A; The room is large, and L-shaped. Around the corner is the other half of the room. There is a sturdy white conference table, with a comfortable white chair. &#x000A;&#x000A;You can see interview notes, an index card and a conference table (on which is a compass) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0B8514D8">
+    <command xml:space="preserve">unlock door with red key</command>
+    <result xml:space="preserve">(first taking the red key)&#x000A;You unlock the red door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0304A378"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0304A378">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B7D4E40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B7D4E40">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open the red door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B7D4F90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B7D4F90">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">You see nothing special about the red door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B7D4D60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B7D4D60">
+    <command xml:space="preserve">close door</command>
+    <result xml:space="preserve">You close the red door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B7D45F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B7D45F0">
+    <command xml:space="preserve">lock door with red key</command>
+    <result xml:space="preserve">You lock the red door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B7D4CF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B7D4CF0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B7D4B30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B7D4B30">
+    <command xml:space="preserve">unlock door with red key</command>
+    <result xml:space="preserve">You unlock the red door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B7D4890"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B7D4890">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">You see nothing special about the red door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B7D4EB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B7D4EB0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B7D4970"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B7D4970">
+    <command xml:space="preserve">go door</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B7D51C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B7D51C0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open the red door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B7D4BA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B7D4BA0">
+    <command xml:space="preserve">go door</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B7D4C10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B7D4C10">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0B7D5460">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">(first taking the red key)&#x000A;You unlock the red door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B7D5380"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B7D5380">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the red door)&#x000A;&#x000A;Nexus of Personality&#x000A;The sight that greets you is impressive. Cogs and gears taller than you and half as wide line the walls and spin in time with the thrum of some unseen engine. Normal color seems to have returned to the world, although the door behind you remains an obstinate red. You stand on a raised platform. A labyrinthine network of corridors serpent out below. A small, sturdy bridge extends out toward the center of the room, to another platform. You can make out a figure in a chair, and decide to proceed forward. Maybe he or she can tell you what's going on. &#x000A;&#x000A;You can see a red door and an old man here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B7D54D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B7D54D0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Boiler Room&#x000A;Pipes line the walls and steam can be seen coming from various cracks and crevices. You've entered the boiler room, apparently. Halfway into the room, you notice a figure meditating, or is he just sleeping? To his left, a panel labelled "Furnace Controls" can be seen. Behind him is a large pit with a bridge spanning it. How cliche, you think. You can't make out what's on the other side without crossing. &#x000A;&#x000A;A big bridge leads west to the rest of the Boiler Room.&#x000A;&#x000A;A steel ladder leads to some Scaffolding, but is retracted.&#x000A;&#x000A;You can also see a meditator here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B8513F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B8513F8">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Scaffolding&#x000A;Wow, this scaffolding is sturdier than it looks. The only thing of note up here is the ventilation unit adjacent to you. Behind you, the ladder goes back down to ground level. &#x000A;&#x000A;You can see a steel ladder here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B851158"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B851158">
+    <command xml:space="preserve">x ladder</command>
+    <result xml:space="preserve">You see nothing special about the steel ladder.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B79BE00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B79BE00">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>
